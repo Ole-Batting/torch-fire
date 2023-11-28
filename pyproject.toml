@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "torch-fire"
+version = "0.1.0"
+description = "Pytorch utilities for truly minimal boilerplate."
+authors = ["Ole-Batting <batting.ole@gmail.com>"]
+readme = "README.md"
+packages = [{include = "torch_fire"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "1.26.2"
+torch = "2.1.1"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
